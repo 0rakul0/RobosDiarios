@@ -1,0 +1,20 @@
+Para o comando push:
+git push -u gitlab main
+git push -u github main
+
+Certifique-se de que o git pull gitlab main e o git pull github main fora feitos corretamente.
+
+O comando git remote -v deve mostrar algo como:
+
+github  git@github.com:pedrograngeiro/Navegacao-de-arquivos-e-extracao.git (fetch)
+github  git@github.com:pedrograngeiro/Navegacao-de-arquivos-e-extracao.git (push)
+gitlab  git@gitlab.com:pedrograngeiro/navegacao-de-arquivos-e-extracao.git (fetch)
+gitlab  git@gitlab.com:pedrograngeiro/navegacao-de-arquivos-e-extracao.git (push)
+
+O comando git branch -a deve mostrar algo como:
+  main
+* modificacoes
+  remotes/github/main
+  remotes/github/modificacoes
+  remotes/gitlab/main
+  remotes/gitlab/modificacoes
